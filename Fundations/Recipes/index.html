@@ -4,10 +4,12 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="./resources/css/index.css">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
 </head>
 <body>
+    <header-component></header-component>
     <div class ="circular_image" style="margin:0 auto;">
     <img src="./resources/img/img_01.png">
     </div>
@@ -19,21 +21,23 @@
             <th>Description</th>
         </tr>
         <tr>
-            <td>Spotted Dick</td>
+        <td><a href="./content/recipes/spotted_dick.html">Spotted Dick </a></td>
             <td>United Kingdom</td>
             <td>Traditional Spotted Dick (English Steamed Pudding)</td>
         </tr>
         <tr>
-            <td>Beans with Toast</td>
+            <td><a href="./content/recipes/beans_toast.html">Beans with Toast</a></td>
             <td>United Kingdom</td>
             <td>British-Style Beans on Toast Recipe</td>
         </tr>
         <tr>
-            <td>Yaguarlocro</td>
+            <td><a href="./content/recipes/yaguarlocro.html">Yaguarlocro</a></td>
             <td>Ecuador</td>
             <td>Traditional soup from Ecuador</td>
         </tr>
     </table>
+    
+    <footer-component></footer-component>
     
 </body>
 </html>

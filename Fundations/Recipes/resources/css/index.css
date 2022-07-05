@@ -50,13 +50,27 @@ thead:last-child tr:last-child th:first-child, tbody:last-child tr:last-child td
   }
   
 
+  
 /* HEADER AND FOOTER */
-
-.header {
-    padding: 60px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-size: 30px;
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    color: #333;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
   }
   
